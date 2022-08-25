@@ -12,7 +12,7 @@
 with Customer as (
 
     select  CustomerID customerid , lower(Firstname) firstname, upper(Lastname) lastname 
-	from {{source 'FivetranWithSkyPoint'}}
+	from {{source('FivetranWithSkyPoint')}}
 
 )
 
