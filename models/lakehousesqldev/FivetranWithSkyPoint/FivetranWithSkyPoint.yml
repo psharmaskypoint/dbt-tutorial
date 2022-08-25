@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+  - name: FivetranWithSkyPoint
+    schema: FivetranWithSkyPoint
+    tables:
+        -name: Customer
+        -name: Product
+        -name: Order
+   
