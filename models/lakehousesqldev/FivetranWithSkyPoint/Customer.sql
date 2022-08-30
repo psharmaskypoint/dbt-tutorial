@@ -12,7 +12,7 @@
 with Customer as (
 
     select   upper(source_datasource_entity_name) , skypointId 
-	from {{source('skypointgroupllc2_banking','audience_allcustomers')}}
+	from {{source('skypointgroupllc22_banking','audience_allcustomers')}}
 
 )
 
