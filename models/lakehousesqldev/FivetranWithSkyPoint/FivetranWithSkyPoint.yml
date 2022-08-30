@@ -2,8 +2,8 @@
 version: 2
 
 models:
-  - name: skypointgroupllc2_banking
-    schema: skypointgroupllc2_banking
+  - name: skypointgroupllc22_banking
+    schema: skypointgroupllc22_banking
     tables:
         -name: audience_allcustomers
         -name: audience_customerswithloan
