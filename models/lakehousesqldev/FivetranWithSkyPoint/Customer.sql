@@ -11,8 +11,8 @@
 
 with Customer as (
 
-    select  CustomerID customerid , lower(Firstname) firstname, upper(Lastname) lastname 
-	from {{source('FivetranWithSkyPoint','Customer')}}
+    select   upper(source_datasource_entity_name) , skypointId 
+	from {{source('skypointgroupllc2_banking','audience_allcustomers')}}
 
 )
 

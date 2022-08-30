@@ -2,10 +2,9 @@
 version: 2
 
 models:
-  - name: FivetranWithSkyPoint
-    schema: FivetranWithSkyPoint
+  - name: skypointgroupllc2_banking
+    schema: skypointgroupllc2_banking
     tables:
-        -name: Customer
-        -name: Product
-        -name: Order
+        -name: audience_allcustomers
+        -name: audience_customerswithloan
    
